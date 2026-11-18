@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="mn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sugar.mn — Сонин хачин, зөвлөгөө, мэдээ</title>
+<meta name="description" content="Sugar.mn — сонин хачин, зөвлөгөө, гэр бүл, эрүүл мэнд, шинжлэх ухаан, түүх болон бусад сонирхолтой нийтлэлүүд.">
+<link rel="canonical" href="https://sugar.mn/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#3BA73D">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sugar.mn">
+<meta property="og:locale" content="mn_MN">
+<meta property="og:title" content="Sugar.mn — Сонин хачин, зөвлөгөө, мэдээ">
+<meta property="og:description" content="Sugar.mn — сонин хачин, зөвлөгөө, гэр бүл, эрүүл мэнд, шинжлэх ухаан, түүх болон бусад сонирхолтой нийтлэлүүд.">
+<meta property="og:url" content="https://sugar.mn/">
+<meta property="og:image" content="https://sugar.mn/assets/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sugar.mn">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sugar.mn — Сонин хачин, зөвлөгөө, мэдээ">
+<meta name="twitter:description" content="Sugar.mn — сонин хачин, зөвлөгөө, гэр бүл, эрүүл мэнд, шинжлэх ухаан, түүх болон бусад сонирхолтой нийтлэлүүд.">
+<meta name="twitter:image" content="https://sugar.mn/assets/og-image.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "Sugar.mn",
+      "url": "https://sugar.mn/",
+      "inLanguage": "mn",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://sugar.mn/search/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Sugar.mn",
+      "url": "https://sugar.mn/",
+      "logo": "https://sugar.mn/assets/logo.svg",
+      "sameAs": [
+        "https://www.facebook.com/sugarnews/",
+        "https://x.com/sugarnewsmn",
+        "https://www.youtube.com/channel/UCMtCsYAKLG1r4TOGj_l40Bw"
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400..700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17?plugins=typography"></script>
+<script src="./assets/tailwind.config.js"></script>
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body data-page="home" data-root="./" class="min-h-screen flex flex-col bg-white text-gray-900">
+
+<div data-include="header"></div>
+
+<main class="flex-1 container mx-auto px-4 py-6">
+  <h1 class="text-xl font-bold mb-4">Сүүлийн нийтлэлүүд</h1>
+  <div data-post-grid></div>
+  <div data-list-status></div>
+  <div class="text-center mt-6">
+    <button type="button" data-load-more class="inline-flex items-center gap-2 px-6 py-2 bg-primary text-white rounded disabled:opacity-70">
+        <svg data-spinner class="hidden animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" class="opacity-25"></circle>
+          <path d="M4 12a8 8 0 018-8" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+        </svg>
+      <span data-label>Цааш үзэх</span>
+    </button>
+  </div>
+</main>
+
+<div data-include="footer"></div>
+<script src="./assets/main.js"></script>
+</body>
+</html>

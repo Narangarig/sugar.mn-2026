@@ -1,0 +1,27 @@
+{
+  "name": "Sugar.mn",
+  "url": "https://sugar.mn",
+  "socials": {
+    "facebook": "https://www.facebook.com/sugarnews/",
+    "x": "https://x.com/sugarnewsmn",
+    "youtube": "https://www.youtube.com/channel/UCMtCsYAKLG1r4TOGj_l40Bw"
+  },
+  "categories": [
+    { "slug": "photos", "name": "Фото, Зураг" },
+    { "slug": "design", "name": "Загвар, Дизайн" },
+    { "slug": "music", "name": "Дуу хөгжим" },
+    { "slug": "movie", "name": "Кино" },
+    { "slug": "culture", "name": "Урлаг" },
+    { "slug": "science", "name": "Шинжлэх ухаан" },
+    { "slug": "kitchen", "name": "Хоол" },
+    { "slug": "animals", "name": "Амьтад" },
+    { "slug": "family", "name": "Гэр бүл" },
+    { "slug": "interesting", "name": "Сонин хачин" },
+    { "slug": "advice", "name": "Зөвлөгөө" },
+    { "slug": "health", "name": "Эрүүл мэнд" },
+    { "slug": "tech", "name": "Технологи" },
+    { "slug": "test", "name": "Сонжоо" },
+    { "slug": "history", "name": "Түүх" },
+    { "slug": "interview", "name": "Ярилцлага" }
+  ]
+}

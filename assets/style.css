@@ -1,0 +1,21 @@
+/* Your custom CSS goes here. Tailwind (Play CDN) + its config are in each page's <head>. */
+
+.site-nav a[aria-current="page"] {
+  text-decoration: underline;
+}
+
+/* mobile: keep long words/URLs, tables, videos inside post content from overflowing */
+.prose {
+  overflow-wrap: anywhere;
+}
+.prose table {
+  display: block;
+  overflow-x: auto;
+}
+.prose iframe,
+.prose video {
+  max-width: 100%;
+}
+.prose img {
+  height: auto;
+}

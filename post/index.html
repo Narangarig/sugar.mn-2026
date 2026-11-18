@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="mn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Нийтлэл | Sugar.mn</title>
+<meta name="description" content="Sugar.mn — сонин хачин, зөвлөгөө, гэр бүл, эрүүл мэнд, шинжлэх ухаан, түүх болон бусад сонирхолтой нийтлэлүүд.">
+<link rel="canonical" href="https://sugar.mn/post/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#3BA73D">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Sugar.mn">
+<meta property="og:locale" content="mn_MN">
+<meta property="og:title" content="Нийтлэл">
+<meta property="og:description" content="Sugar.mn — сонин хачин, зөвлөгөө, гэр бүл, эрүүл мэнд, шинжлэх ухаан, түүх болон бусад сонирхолтой нийтлэлүүд.">
+<meta property="og:url" content="https://sugar.mn/post/">
+<meta property="og:image" content="https://sugar.mn/assets/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sugar.mn">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Нийтлэл">
+<meta name="twitter:description" content="Sugar.mn — сонин хачин, зөвлөгөө, гэр бүл, эрүүл мэнд, шинжлэх ухаан, түүх болон бусад сонирхолтой нийтлэлүүд.">
+<meta name="twitter:image" content="https://sugar.mn/assets/og-image.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400..700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17?plugins=typography"></script>
+<script src="../assets/tailwind.config.js"></script>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-page="post" data-root="../" class="min-h-screen flex flex-col bg-white text-gray-900">
+
+<div data-include="header"></div>
+
+<main class="flex-1 container mx-auto px-4 py-6">
+  <article id="post-content" class="prose max-w-3xl mx-auto">
+    <div class="flex justify-center py-10">
+      <svg class="animate-spin h-8 w-8 text-primary" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" class="opacity-25"></circle>
+        <path d="M4 12a8 8 0 018-8" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+      </svg>
+    </div>
+  </article>
+
+  <!--
+    Share buttons — shown under the title and after the article by assets/main.js.
+    Placeholders (already URL-encoded): {{url}} = post URL, {{title}} = post title.
+    [data-share-native] is shown only where the browser supports the share sheet (mostly phones).
+  -->
+  <template id="share-template">
+    <div class="not-prose flex flex-wrap items-center gap-2 text-sm" data-share>
+      <span class="text-gray-500">Хуваалцах:</span>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{url}}" target="_blank" rel="noopener" aria-label="Facebook-ээр хуваалцах"
+        class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-[#1877F2] text-white">
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        Facebook
+      </a>
+      <a href="https://x.com/intent/post?url={{url}}&amp;text={{title}}" target="_blank" rel="noopener" aria-label="X дээр хуваалцах"
+        class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-black text-white">
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+        X
+      </a>
+      <button type="button" data-share-copy class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded border border-gray-300">
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.5 1.5M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.5-1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span data-share-copy-label>Холбоос хуулах</span>
+      </button>
+      <button type="button" data-share-native hidden class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded border border-gray-300">
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7M16 6l-4-4-4 4M12 2v13" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Бусад
+      </button>
+    </div>
+  </template>
+
+  <section class="mt-12" aria-labelledby="more-heading">
+    <h2 id="more-heading" class="text-xl font-bold mb-4">Бусад нийтлэлүүд</h2>
+    <div data-random-grid class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-4"></div>
+  </section>
+</main>
+
+<div data-include="footer"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

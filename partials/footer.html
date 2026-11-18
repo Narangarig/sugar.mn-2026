@@ -1,0 +1,17 @@
+<!-- Site footer — loaded into <div data-include="footer"> on every page. Placeholders: {{root}} {{year}} -->
+<footer class="bg-gray-900 text-gray-300 mt-10">
+  <div class="container mx-auto px-4 py-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+    <a href="{{root}}" aria-label="Sugar.mn"><img src="{{root}}assets/logo.svg" alt="Sugar.mn" width="100" height="36" loading="lazy"></a>
+    <nav aria-label="Бидний тухай">
+      <ul class="flex flex-wrap gap-4 text-sm">
+        <li><a href="{{root}}">Нүүр</a></li>
+        <li><a href="{{root}}about/">Бидний тухай</a></li>
+      </ul>
+    </nav>
+  </div>
+  <p class="container mx-auto px-4 py-4 text-xs text-gray-500">&copy; {{year}} Sugar.mn. Бүх эрх хуулиар хамгаалагдсан.</p>
+</footer>
+
+<!-- VS Code Live Server injects its reload script before the closing body tag below. Keep exactly one,
+     otherwise it injects at every closing svg tag and cuts this file short. Ignored by the browser. -->
+</body>
